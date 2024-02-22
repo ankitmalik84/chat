@@ -60,5 +60,3 @@ The Chatting App is aimed at providing a real-time messaging platform where user
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
 
-## License
-This project is licensed under the [insert license type] License - see the [LICENSE](LICENSE) file for details.
