@@ -45,7 +45,7 @@ The Chatting App is aimed at providing a real-time messaging platform where user
 
 3. **Run Backend**:
    ```
-   npm start
+   npm start server
    ```
 
 4. **Run Frontend**:
