@@ -1,4 +1,3 @@
-
 # Chatting App
 
 This repository contains the progress of my Chat App project. Currently, the backend part is completed, and I'm utilizing this project to learn about Socket.IO and to practice both backend and frontend development.
@@ -9,11 +8,12 @@ The Chatting App is aimed at providing a real-time messaging platform where user
 
 1. **Backend**: This part of the project deals with the server-side logic, including handling client connections, managing chat rooms, and facilitating message exchange between users. Technologies used in the backend include [nodejs , mongoDB, expressjs].
 
-2. **Frontend**: The frontend is responsible for providing a user interface where users can interact with the chat application. This involves displaying chat messages, allowing users to join/create chat rooms, and sending/receiving messages in real-time. Technologies utilized in the frontend include [ react ,  vite, tailwind+daisyUI ].
+2. **Frontend**: The frontend is responsible for providing a user interface where users can interact with the chat application. This involves displaying chat messages, allowing users to join/create chat rooms, and sending/receiving messages in real-time. Technologies utilized in the frontend include [ react , vite, tailwind+daisyUI ].
 
 ## Progress
 
 ### Backend
+
 - [x] Setup project structure
 - [x] Implement user authentication
 - [x] Develop RESTful API endpoints for user management
@@ -23,7 +23,8 @@ The Chatting App is aimed at providing a real-time messaging platform where user
 - [ ] Handle user disconnection and error cases
 
 ### Frontend
-- [ ] Design user interface layout
+
+- [x] Design user interface layout
 - [ ] Implement user authentication interface
 - [ ] Integrate with backend API for user management
 - [ ] Develop chat room UI components
@@ -32,23 +33,27 @@ The Chatting App is aimed at providing a real-time messaging platform where user
 
 ## How to Run
 
-1. **Clone Repository**: 
+1. **Clone Repository**:
+
    ```
    git clone <repository_url>
    ```
 
 2. **Install Dependencies**:
+
    ```
    cd chatting-app
    npm install
    ```
 
 3. **Run Backend**:
+
    ```
    npm start server
    ```
 
 4. **Run Frontend**:
+
    ```
    cd client
    npm start
@@ -58,5 +63,5 @@ The Chatting App is aimed at providing a real-time messaging platform where user
    Open your web browser and navigate to `http://localhost:5000`.
 
 ## Contributing
-Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
 
+Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
