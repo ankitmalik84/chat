@@ -25,9 +25,9 @@ The Chatting App is aimed at providing a real-time messaging platform where user
 ### Frontend
 
 - [x] Design user interface layout
-- [ ] Implement user authentication interface
+- [x] Implement user authentication interface
 - [ ] Integrate with backend API for user management
-- [ ] Develop chat room UI components
+- [x] Develop chat room UI components
 - [ ] Implement real-time message updates using Socket.IO
 - [ ] Handle user interactions and error cases
 
