@@ -8,7 +8,7 @@ The Chatting App is aimed at providing a real-time messaging platform where user
 
 1. **Backend**: This part of the project deals with the server-side logic, including handling client connections, managing chat rooms, and facilitating message exchange between users. Technologies used in the backend include [nodejs , mongoDB, expressjs].
 
-2. **Frontend**: The frontend is responsible for providing a user interface where users can interact with the chat application. This involves displaying chat messages, allowing users to join/create chat rooms, and sending/receiving messages in real-time. Technologies utilized in the frontend include [ react , vite, tailwind+daisyUI ].
+2. **Frontend**: The frontend is responsible for providing a user interface where users can interact with the chat application. This involves displaying chat messages, allowing users to join/create chat rooms, and sending/receiving messages in real-time. Technologies utilized in the frontend include [ react , vite, tailwind+daisyUI , Zustand(for global state)].
 
 ## Progress
 
@@ -26,7 +26,7 @@ The Chatting App is aimed at providing a real-time messaging platform where user
 
 - [x] Design user interface layout
 - [x] Implement user authentication interface
-- [ ] Integrate with backend API for user management
+- [x] Integrate with backend API for user management
 - [x] Develop chat room UI components
 - [ ] Implement real-time message updates using Socket.IO
 - [ ] Handle user interactions and error cases
