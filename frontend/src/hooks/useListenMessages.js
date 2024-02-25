@@ -12,7 +12,7 @@ const useListenMessages = () => {
       const sound = new Audio(notificationSound);
       sound.play();
 
-      setMessages((prevMessages) => [...prevMessages, newMessage]);
+      setMessages([...messages, newMessage]);
     });
     return () => {
       socket?.off("newMessage");

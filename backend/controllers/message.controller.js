@@ -56,7 +56,7 @@ export const getMessages = async (req, res) => {
     const { id: userToChatId } = req.params;
     const senderId = req.user._id;
 
-    let conversation = await Conversation.findOne({
+    const conversation = await Conversation.findOne({
       participants: { $all: [senderId, userToChatId] },
     }).populate("messages"); // populate the messages field of the conversation instead of giving only the id of the messages
 
