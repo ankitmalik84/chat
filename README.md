@@ -20,7 +20,9 @@ The Chatting App is aimed at providing a real-time messaging platform where user
 - [x] Implement message sending and receiving functionality
 - [x] Integrate Socket.IO for real-time communication
 - [x] Implement chat room functionality
-- [ ] Handle user disconnection and error cases
+- [x] Handle user disconnection and error cases
+- [ ] Video Calling Functionality
+- [ ] Voice Calling Functionality
 
 ### Frontend
 
@@ -29,7 +31,8 @@ The Chatting App is aimed at providing a real-time messaging platform where user
 - [x] Integrate with backend API for user management
 - [x] Develop chat room UI components
 - [x] Implement real-time message updates using Socket.IO
-- [ ] Handle user interactions and error cases
+- [x] Handle user interactions and error cases
+- [ ] Chat translation feature
 
 ## How to Run
 
