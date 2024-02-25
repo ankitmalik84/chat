@@ -24,7 +24,7 @@ export const SocketContextProvider = ({ children }) => {
     // If there is an authenticated user
     if (authUser) {
       // Create a new socket instance
-      const socket = io("http://localhost:5000", {
+      const socket = io("https://chat-5nyc.onrender.com", {
         query: {
           userId: authUser._id,
         },
