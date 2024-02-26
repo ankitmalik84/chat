@@ -55,24 +55,60 @@ The Chatting App utilizes Socket.IO for real-time communication between clients 
    git clone <repository_url>
    ```
 
-2. **Install Dependencies**:
+2. **Navigate to Project Directory**:
 
    ```
    cd chatting-app
+   ```
+
+3. **Install Dependencies**:
+
+   ```
    npm install
    ```
 
-3. **Run Backend**:
+4. **Run Backend**:
 
    ```
    npm start server
    ```
 
-4. **Run Frontend**:
+5. **Run Frontend**:
 
    ```
    cd client
    npm start
+   ```
+
+6. **Access Application**:
+   Open your web browser and navigate to `http://localhost:5000`.
+
+## Running with Docker 🐳
+
+You can also run the Chatting App using Docker. Here's how:
+
+1. **Clone Repository**:
+
+   ```
+   git clone <repository_url>
+   ```
+
+2. **Navigate to Project Directory**:
+
+   ```
+   cd chatting-app
+   ```
+
+3. **Build Docker Image**:
+
+   ```
+   docker build -t chatting-app .
+   ```
+
+4. **Run Docker Container**:
+
+   ```
+   docker run -it -p 5000:5000 chatting-app
    ```
 
 5. **Access Application**:
